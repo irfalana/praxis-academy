@@ -1,0 +1,337 @@
+1. dir
+C:\Users\USER>dir
+ Volume in drive C has no label.
+ Volume Serial Number is D492-738F
+
+ Directory of C:\Users\USER
+
+10/20/2019  06:15 AM    <DIR>          .
+10/20/2019  06:15 AM    <DIR>          ..
+09/30/2020  04:48 AM    <DIR>          3D Objects
+09/30/2020  04:48 AM    <DIR>          Contacts
+09/30/2020  04:48 AM    <DIR>          Desktop
+10/04/2020  06:49 PM    <DIR>          Documents
+09/30/2020  04:48 AM    <DIR>          Downloads
+09/30/2020  04:48 AM    <DIR>          Favorites
+09/30/2020  04:48 AM    <DIR>          Links
+09/30/2020  04:48 AM    <DIR>          Music
+09/09/2020  03:35 AM    <DIR>          OneDrive
+09/30/2020  04:48 AM    <DIR>          Pictures
+09/30/2020  04:48 AM    <DIR>          Saved Games
+09/30/2020  04:48 AM    <DIR>          Searches
+09/30/2020  04:48 AM    <DIR>          Videos
+10/20/2019  06:20 AM    <DIR>          Zotero
+               0 File(s)              0 bytes
+              16 Dir(s)  72,758,161,408 bytes free
+
+2. cls
+
+3. pause
+C:\Users\USER>pause
+Press any key to continue . . .
+ 
+4. ipconfig
+C:\Users\USER>ipconfig
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::ac63:4498:65cb:a0ad%10
+   IPv4 Address. . . . . . . . . . . : 192.168.1.38
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+5.compact
+C:\Users\USER>compact
+
+ Listing C:\Users\USER\
+ New files added to this directory will not be compressed.
+
+        0 :         0 = 1.0 to 1   3D Objects
+        0 :         0 = 1.0 to 1   Contacts
+        0 :         0 = 1.0 to 1   Desktop
+        0 :         0 = 1.0 to 1   Documents
+        0 :         0 = 1.0 to 1   Downloads
+        0 :         0 = 1.0 to 1   Favorites
+        0 :         0 = 1.0 to 1   Links
+        0 :         0 = 1.0 to 1   Music
+        0 :         0 = 1.0 to 1   OneDrive
+        0 :         0 = 1.0 to 1   Pictures
+        0 :         0 = 1.0 to 1   Saved Games
+        0 :         0 = 1.0 to 1   Searches
+       20 :        20 = 1.0 to 1   test.txt
+        0 :         0 = 1.0 to 1   Videos
+        0 :         0 = 1.0 to 1   Zotero
+
+Of 35 files within 1 directories
+0 are compressed and 35 are not compressed.
+7,045,160 total bytes of data are stored in 7,045,160 bytes.
+The compression ratio is 1.0 to 1.
+
+6. comp
+C:\Users\USER>comp test.txt test2.txt
+Comparing test.txt and test2.txt...
+Files are different sizes.
+
+7. date
+C:\Users\USER>date
+The current date is: Sun 10/04/2020
+Enter the new date: (mm-dd-yy)
+
+8. mode
+C:\Users\USER>mode
+
+Status for device CON:
+----------------------
+    Lines:          9001
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+
+9. msg
+C:\Users\USER>msg
+Send a message to a user.
+
+MSG {username | sessionname | sessionid | @filename | *}
+    [/SERVER:servername] [/TIME:seconds] [/V] [/W] [message]
+
+  username            Identifies the specified username.
+  sessionname         The name of the session.
+  sessionid           The ID of the session.
+  @filename           Identifies a file containing a list of usernames,
+                      sessionnames, and sessionids to send the message to.
+  *                   Send message to all sessions on specified server.
+  /SERVER:servername  server to contact (default is current).
+  /TIME:seconds       Time delay to wait for receiver to acknowledge msg.
+  /V                  Display information about actions being performed.
+  /W                  Wait for response from user, useful with /V.
+  message             Message to send.  If none specified, prompts for it
+                      or reads from stdin.
+10. chkdsk
+C:\Users\USER>chkdsk
+Access Denied as you do not have sufficient privileges or
+the disk may be locked by another process.
+You have to invoke this utility running in elevated mode
+and make sure the disk is unlocked.
+
+11. chdir
+C:\Users\USER>chdir ..
+
+C:\Users>
+
+12. echo
+C:\Users>echo
+ECHO is on.
+
+13. help
+C:\Users>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+14. klist
+C:\Users>klist
+
+Current LogonId is 0:0x4d1fc0
+
+Cached Tickets: (0)
+
+15. cipher
+C:\Users>cipher
+
+ Listing C:\Users\
+ New files added to this directory will not be encrypted.
+
+U Public
+U USER
+
+16. chcp
+C:\Users>chcp
+Active code page: 437
+
+17. hostname
+C:\Users>hostname
+DESKTOP-JGC77CI
+
+18. lodctr
+C:\Users>lodctr
+
+
+LODCTR
+    Updates registry values related to performance counters.
+
+Usage:
+    LODCTR <INI-FileName>
+        INI-FileName is the name of the initialization file that contains
+            the counter name definitions and explain text for an extensible
+            counter DLL.
+
+    LODCTR /S:<Backup-FileName>
+        save the current perf registry strings and info to <Backup-FileName>
+
+    LODCTR /R:<Backup-FileName>
+        restore the perf registry strings and info using <Backup-FileName>
+
+    LODCTR /R
+        rebuild the perf registry strings and info from scratch based on the current
+            registry settings and backup INI files.
+
+    LODCTR /T:<Service-Name>
+        set the performance counter service as trusted.
+
+    LODCTR /E:<Service-Name>
+        enable the performance counter service.
+
+    LODCTR /D:<Service-Name>
+        disable the performance counter service.
+
+    LODCTR /Q
+
+    LODCTR /Q:<Service-Name>
+        query the performance counter service information, either query all or specified one.
+
+    LODCTR /M:<Counter-Manifest>
+        install Windows Vista performance counter provider definition XML file
+            to system repository.
+
+Note: any arguments with spaces in the names must be enclosed within
+Double Quotation marks.
+
+19. makecab
+C:\Users>makecab
+Cabinet Maker - Lossless Data Compression Tool
+
+MAKECAB [/V[n]] [/D var=value ...] [/L dir] source [destination]
+MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
+
+  source         File to compress.
+  destination    File name to give compressed file.  If omitted, the
+                 last character of the source file name is replaced
+                 with an underscore (_) and used as the destination.
+  /F directives  A file with MakeCAB directives (may be repeated). Refer to
+                 Microsoft Cabinet SDK for information on directive_file.
+  /D var=value   Defines variable with specified value.
+  /L dir         Location to place destination (default is current directory).
+  /V[n]          Verbosity level (1..3).
+
+20. path
+C:\Users>path
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;
